@@ -1,16 +1,48 @@
-# React + Vite
+# Todo List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and efficient Todo List application built with React to help manage daily tasks.
 
-Currently, two official plugins are available:
+## 🚀 Features
+* **Add Tasks:** Easily add new tasks to your list.
+* **Delete Tasks:** Remove completed or unwanted tasks.
+* **Mark as Complete:** Toggle the status of tasks.
+* **Edit:** Edit the tasks.
+* **Persistent Storage:** Saves tasks to local storage so they remain after refreshing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tech Stack
+* **Frontend:** React
+* **Styling:** Tailwind CSS
+* **Language:** JavaScript
+* **Unique ID Generator:** `uuid`
 
-## React Compiler
+## 📦 How to Run Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
 
-## Expanding the ESLint configuration
+### Installation
+1. Clone the repository:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   git clone [https://github.com/SanjayLadumor/TodoList-WithReact.git](https://github.com/SanjayLadumor/TodoList-WithReact.git)
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd TodoList
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:5173](http://localhost:5173) in your browser to view the app.
